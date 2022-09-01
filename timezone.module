@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Timezone module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function timezone_theme($existing, $type, $theme, $path) {
+  return [
+    'timezone' => [
+      'variables' => [
+        'city' => NULL,
+        'country' => NULL,
+        'timezone' => [],
+      ],
+    ],
+  ];
+}

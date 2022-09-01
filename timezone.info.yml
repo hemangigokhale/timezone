@@ -1,0 +1,5 @@
+name: Timezone
+type: module
+description: Provides current time based on timezone selected.
+package: Custom
+core_version_requirement: ^9 || ^10

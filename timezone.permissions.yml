@@ -1,0 +1,4 @@
+administer timezone configuration:
+  title: 'Administer timezone configuration'
+  description: 'Provides access to update timezone configuration.'
+  restrict access: true

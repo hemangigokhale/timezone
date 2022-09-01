@@ -1,0 +1,22 @@
+{#
+/**
+ * @file
+ * Default theme implementation of the timezone.
+ *
+ * Variables:
+ * - city: The city value received from the settings form.
+ * - country: The country value received from the settings form.
+ * - timezone: An array that contains transformed datetme & selected timezone.
+ *
+ * @see hook_theme()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="time">
+  <span class="time__city">{{ city }}</span>, <span class="time__country">{{ country }}</span>
+  <div class="time__timezone">
+    <span class="time__timezone-datetime">{{ timezone.0 }}</span>
+    <span class="time__timezone-timezone">({{ timezone.1 }})</span>
+  </div>
+</div>
